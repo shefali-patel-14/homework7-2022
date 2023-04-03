@@ -36,14 +36,14 @@ function pauseVideo() {
 
 // slow
 document.querySelector("#slower").addEventListener("click", function() {
-	vid.playbackRate *= 0.95
+	vid.playbackRate *= 0.90
 console.log("speed is" + vid.playbackRate);
 });
 
 
 // fast
 document.querySelector("#faster").addEventListener("click", function() {
-	vid.playbackRate /= 0.95
+	vid.playbackRate /= 0.90
 console.log("speed is" + vid.playbackRate);
 });
 
