@@ -50,7 +50,7 @@ console.log("speed is" + vid.playbackRate);
 
 // skip
 document.querySelector("#skip").addEventListener("click", function() {
-	vid.currentTime +=15
+	vid.currentTime +=10
 	if( vid.currentTime >= vid.duration)
 	vid.currentTime = 0
   console.log("current time is " + vid.currentTime);
